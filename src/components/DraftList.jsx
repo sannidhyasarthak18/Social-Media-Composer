@@ -7,7 +7,6 @@ import {
   FaRegClock,
   FaHashtag,
 } from "react-icons/fa";
-
 function DraftList({ drafts, deleteDraft, editDraft }) {
   const getPlatform = (platform) => {
     switch (platform) {
